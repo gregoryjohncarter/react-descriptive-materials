@@ -5,44 +5,46 @@ function Nav(props) {
     categories = [],
     setCurrentCategory,
     currentCategory,
-    contactSelected,
-    setContactSelected
+    showAbout,
+    showPortfolio,
+    showContact,
+    showResume,
+    setShowAbout,
+    setShowPortfolio,
+    setShowContact,
+    setShowResume
   } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
+    document.title = currentCategory.section;
   }, [currentCategory]);
 
   return (
-    <header className="flex-row px-1">
+    <header className="">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+          Gregory Carter
         </a>
       </h2>
       <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
+        <ul className="">
           {categories.map((category) => (
             <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && `navActive`
+              className={`${
+                currentCategory.section === category.section && `navActive`
                 }`}
-              key={category.name}
+              key={category.section}
             >
-              <span onClick={() => {
-                setCurrentCategory(category);
-                setContactSelected(false);
-              }}
+              <span onClick={() => { 
+                  setCurrentCategory(category)
+                  category.section === 'About Me' && (setShowPortfolio(false), setShowContact(false), setShowResume(false), setShowAbout(true));
+                  category.section === 'Portfolio' && (setShowAbout(false), setShowContact(false), setShowResume(false), setShowPortfolio(true));
+                  category.section === 'Contact' && (setShowPortfolio(false), setShowAbout(false), setShowResume(false), setShowContact(true));
+                  category.section === 'Resume' && (setShowAbout(false), setShowPortfolio(false), setShowContact(false), setShowResume(true));
+                }
+              }
               >
-                {capitalizeFirstLetter(category.name)}
+                {category.section}
               </span>
             </li>
           ))}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Porfolio({ currentCategory }) {
+function Portfolio({ currentCategory }) {
   const { section, description } = currentCategory;
   return (
     <section>

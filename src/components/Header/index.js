@@ -1,21 +1,35 @@
 import React from 'react';
+import Nav from '../Navigation';
 
 function Header(props) {
   const {
     categories = [],
     setCurrentCategory,
     currentCategory,
-    contactSelected,
-    setContactSelected
+    showAbout,
+    showPortfolio,
+    showContact,
+    showResume,
+    setShowAbout,
+    setShowPortfolio,
+    setShowContact,
+    setShowResume,
   } = props;
+  
   return (
     <header className="">
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+        setShowAbout={setShowAbout}
+        showAbout={showAbout}
+        setShowPortfolio={setShowPortfolio}
+        showPortfolio={showPortfolio}
+        setShowContact={setShowContact}
+        showContact={showContact}
+        setShowResume={setShowResume}
+        showResume={showResume}
       ></Nav>
     </header>
   );

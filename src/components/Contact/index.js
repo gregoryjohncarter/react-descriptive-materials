@@ -38,7 +38,8 @@ function ContactForm({ currentCategory }) {
   
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+      <h1 data-testid="h1tag">{section}</h1>
+      <p className = "">{description}</p>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
