@@ -1,11 +1,11 @@
 import React from 'react';
 
 function Portfolio({ currentCategory }) {
-  const { section, description } = currentCategory;
+  const { section, description, icon } = currentCategory;
   return (
-    <section>
-      <h1 data-testid="h1tag">{section}</h1>
-      <p>{description}</p>
+    <section className="fontOne">
+      <h3 data-testid="h3tag" className="bodyFontAlt"><i className="small material-icons">{icon}</i>{section}</h3>
+      <p className="bodyFont">{description}</p>
     </section>
   );
 }

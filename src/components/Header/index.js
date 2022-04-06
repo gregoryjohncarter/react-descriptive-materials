@@ -17,7 +17,7 @@ function Header(props) {
   } = props;
   
   return (
-    <header className="">
+    <div className="">
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
@@ -31,7 +31,7 @@ function Header(props) {
         setShowResume={setShowResume}
         showResume={showResume}
       ></Nav>
-    </header>
+    </div>
   );
 }
 

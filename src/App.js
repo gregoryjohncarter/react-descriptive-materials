@@ -6,6 +6,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [showAbout, setShowAbout] = useState(true);
@@ -16,11 +17,12 @@ function App() {
   const [categories] = useState([
     {
       section: 'About Me',
-      description: 'During the UConn web development boot camp 2021-2022, I have built a collection of applications which categorize as JavaScript, HTML5, CSS3, Node.js, Express.js, MySQL, and NoSQL, among others things. I\'ve gained proficiency in using technologies such as CSS frameworks (Materialize, Bootstrap), server-side web APIs, Handlebars templating, and the jQuery library.'
+      description: 'During the UConn web development boot camp 2021-2022, I have built a collection of applications which categorize as JavaScript, HTML5, CSS3, Node.js, Express.js, MySQL, and NoSQL, among others things. I\'ve gained proficiency in using technologies such as CSS frameworks (Materialize, Bootstrap), server-side web APIs, Handlebars templating, and the jQuery library.',
+      icon: 'account_circle' 
     },
-    { section: 'Portfolio', description: 'Please consider examining any number of the following projects which were sourced from some of the more exemplary coursework of the boot camp.' },
-    { section: 'Contact', description: 'Use this form to contact me with any questions or inquiries.' },
-    { section: 'Resume', description: 'This resume is a work in progress to designate my skills and qualifications regarding web development.' },
+    { section: 'Portfolio', description: 'Please consider examining any number of the following projects which were sourced from some of the more exemplary coursework of the boot camp.', icon:'dashboard' },
+    { section: 'Contact', description: 'Use this form to contact me with any questions or inquiries.', icon:'message' },
+    { section: 'Resume', description: 'This resume is a work in progress to designate my skills and qualifications regarding web development.', icon:'note' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -53,6 +55,7 @@ function App() {
           {resume}
         </div>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
