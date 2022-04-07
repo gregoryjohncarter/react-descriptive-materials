@@ -4,14 +4,14 @@ import M from 'materialize-css';
 
 function ContactForm({ currentCategory }) {
   const { section, description, icon } = currentCategory;
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-  const { name, email, message } = formState;
+  const [formState, setFormState] = useState({ Name: '', Email: '', Message: '' });
+  const { Name, Email, Message } = formState;
   const [errorMessage, setErrorMessage] = useState('');
   
   function handleChange(e) {
-    if (e.target.name === 'email') {
+    if (e.target.name === 'Email') {
       const isValid = validateEmail(e.target.value);
-      console.log(isValid);
+      // console.log(isValid);
       // isValid conditional statement
       if (!isValid) {
         setErrorMessage('Your email is invalid.');
@@ -27,9 +27,9 @@ function ContactForm({ currentCategory }) {
       console.log('errorMessage', errorMessage);
     }  
 
-    if (!errorMessage) {
+    // if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
+    // }
   }
 
   function handleSubmit(e) {
@@ -46,15 +46,15 @@ function ContactForm({ currentCategory }) {
       <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
-            <input type="text" defaultValue={name} onBlur={handleChange} name="Name" className="input-field"/>
+            <input type="text" defaultValue={Name} onBlur={handleChange} name="Name" className="input-field gray" maxLength="50"/>
           </div>
           <div>
             <label htmlFor="email">Email address:</label>
-            <input type="email" defaultValue={email} onBlur={handleChange} name="email" className="input-field"/>
+            <input type="email" defaultValue={Email} onBlur={handleChange} name="Email" className="input-field gray" maxLength="50"/>
           </div>
           <div className="">
             <label htmlFor="message">Message:</label>
-            <textarea name="Message" defaultValue={message} onBlur={handleChange} rows="5" maxLength="600" />
+            <textarea name="Message" defaultValue={Message} onBlur={handleChange} rows="5" maxLength="600" />
           </div>
           {errorMessage && (
             <div className="gray">
