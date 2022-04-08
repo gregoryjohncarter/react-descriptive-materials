@@ -38,11 +38,11 @@ function Nav(props) {
                 key={category.section}
               >
                 <span className='iconHover fontOne' onClick={() => { 
-                    setCurrentCategory(category);
-                    category.section === 'About Me' && (setShowPortfolio(false), setShowContact(false), setShowResume(false), setShowAbout(true));
-                    category.section === 'Portfolio' && (setShowAbout(false), setShowContact(false), setShowResume(false), setShowPortfolio(true));
-                    category.section === 'Contact' && (setShowPortfolio(false), setShowAbout(false), setShowResume(false), setShowContact(true));
-                    category.section === 'Resume' && (setShowAbout(false), setShowPortfolio(false), setShowContact(false), setShowResume(true));
+                    return (setCurrentCategory(category),
+                    category.section === 'About Me' && (setShowPortfolio(false), setShowContact(false), setShowResume(false), setShowAbout(true)),
+                    category.section === 'Portfolio' && (setShowAbout(false), setShowContact(false), setShowResume(false), setShowPortfolio(true)),
+                    category.section === 'Contact' && (setShowPortfolio(false), setShowAbout(false), setShowResume(false), setShowContact(true)),
+                    category.section === 'Resume' && (setShowAbout(false), setShowPortfolio(false), setShowContact(false), setShowResume(true)))
                   }
                 }
                 >
