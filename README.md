@@ -8,3 +8,6 @@ React.js, Materialize CSS, React Social Icons, JavaScript
 
 ## Screenshot
 <img src="./src/assets/images/reactresume.png"/>
+
+## Deployed Link
+<a href="https://gregoryjohncarter.github.io/react-descriptive-materials/" target="_blank">GitHub Pages</a>
