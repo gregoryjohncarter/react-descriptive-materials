@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import M from 'materialize-css';
 import { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
@@ -20,7 +21,7 @@ function App() {
       description: 'During the UConn web development boot camp 2021-2022, I have built a collection of applications which categorize as JavaScript, HTML5, CSS3, Node.js, Express.js, MySQL, Sequelize (ORM), and MongoDB. I\'ve gained proficiency in using technologies such as CSS frameworks (Materialize, Bootstrap), server-side web APIs, Handlebars templating, React, and the jQuery library.',
       icon: 'account_circle' 
     },
-    { section: 'Portfolio', description: 'Please consider examining any number of the following projects which were sourced from some of the more exemplary coursework of the boot camp.', icon:'dashboard' },
+    { section: 'Portfolio', description: 'Please consider examining any number of the following projects, which were sourced from some of the more exemplary coursework of the boot camp.', icon:'dashboard' },
     { section: 'Contact', description: 'Use this form to contact me with any questions or inquiries.', icon:'message' },
     { section: 'Resume', description: 'This resume is a work in progress to designate my skills and qualifications regarding web development.', icon:'note' },
   ]);
@@ -34,28 +35,40 @@ function App() {
 
   return (
     <div>
-      <Header
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        setShowAbout={setShowAbout}
-        showAbout={showAbout}
-        setShowPortfolio={setShowPortfolio}
-        showPortfolio={showPortfolio}
-        setShowContact={setShowContact}
-        showContact={showContact}
-        setShowResume={setShowResume}
-        showResume={showResume}
-      ></Header>
-      <main>
-        <div>
-          {about}
-          {portfolio}
-          {contact}
-          {resume}
+      <div className='row'>
+        <div className='col s12'>
+          <Header
+            categories={categories}
+            setCurrentCategory={setCurrentCategory}
+            currentCategory={currentCategory}
+            setShowAbout={setShowAbout}
+            showAbout={showAbout}
+            setShowPortfolio={setShowPortfolio}
+            showPortfolio={showPortfolio}
+            setShowContact={setShowContact}
+            showContact={showContact}
+            setShowResume={setShowResume}
+            showResume={showResume}
+          ></Header>
         </div>
-      </main>
-      <Footer></Footer>
+      </div>
+      <div className='row'>
+        <div className='col s12 m10'>
+          <main>
+            <div>
+              {about}
+              {portfolio}
+              {contact}
+              {resume}
+            </div>
+          </main>
+        </div>
+      </div>
+      <div className='row'>
+        <div className='col s12'>
+          <Footer></Footer>
+        </div>
+      </div>
     </div>
   );
 }

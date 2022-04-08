@@ -38,21 +38,21 @@ function ContactForm({ currentCategory }) {
   }
   
   return (
-    <div className="marginBot">
+    <div className="marginBot mobileContact">
       <section className="fontOne">
         <h3 data-testid="h3tag" className="bodyFontAlt"><i className="small material-icons">{icon}</i>{section}</h3>
         <p className = "bodyFont">{description}</p>
       </section>
       <form id="contact-form" onSubmit={handleSubmit}>
-          <div>
+          <div className="width">
             <label htmlFor="name">Name:</label>
             <input type="text" defaultValue={Name} onBlur={handleChange} name="Name" className="input-field gray" maxLength="50"/>
           </div>
-          <div>
+          <div className="width">
             <label htmlFor="email">Email address:</label>
             <input type="email" defaultValue={Email} onBlur={handleChange} name="Email" className="input-field gray" maxLength="50"/>
           </div>
-          <div className="">
+          <div className="width">
             <label htmlFor="message">Message:</label>
             <textarea name="Message" defaultValue={Message} onBlur={handleChange} rows="5" maxLength="600" />
           </div>

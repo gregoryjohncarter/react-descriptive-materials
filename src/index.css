@@ -1,7 +1,8 @@
 :root {
   --primary: #8c54ff;
   --secondary: #F3A847;
-  --bg: rgb(52, 37, 71);
+  --bg: #342547;
+  --test: #2d2d2d;
 }
 
 body {
@@ -19,6 +20,10 @@ code {
     monospace;
 }
 
+.container {
+  width: 85%;
+}
+
 nav a:hover {
   text-decoration: none;
 }
@@ -30,6 +35,10 @@ nav  li {
 nav {
   width: 350px;
   border-bottom-right-radius: 500px;
+}
+
+.nav-wrapper {
+  overflow-y: hidden !important;
 }
 
 textarea {
@@ -165,60 +174,101 @@ button:hover {
 /* Portfolio Styles from Gregorys Portfolio */ 
 
 .main-container {
-  display: flex;
+  /* display: flex; */
   flex: 1 100%;
   flex-direction: column;
   align-items: stretch;
-  width: 650px;
-  height: 650px;
-  margin-left: 77.5px;
+  width: 750px;
+  /* margin-left: 77.5px; */
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.border {
+  border: 10px solid #9983c1;
+  border-radius: 125px;
+}
+
+.row {
+  margin-bottom: 0px !important;
+}
+
+.row .col {
+  padding: 0px !important;
 }
 
 .main-program {
-  flex: 1 50%;
+  flex: 0 100%;
+  min-height: 350px;
+}
+
+.colFlex {
+  display: flex;
 }
 
 /* DIV BOX LABELS */
-
+/* 
 .main-program p {
-  font-size: 26px;
-  color: #7598da;
-  background-color: #10006a;
+  font-size: 29px;
+  color: #463c56;
+  background-color: #e0d4ec;
   display: inline-flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 20px solid rgba(73, 73, 73, 0.8);
+  border-width: 20px 0;
+  border-image: repeating-linear-gradient( -45deg, transparent, transparent 5px, #3d3d3d 6px, #8f779b 40px) 25 0;
 }
 
 .main-program span {
-  font-size: 18px;
+  font-size: 21px;
   color: #6b86c0;
-}
+  color: #1f3d7d;
+} */
 
 .secondary p {
   flex-direction: column;
   justify-content: flex-end;
-  font-size: 20px;
-  color: #7598da;
+  font-size: 25px;
+  color: #463c56;
   display: inline-flex;
-  background-color: #10006a;
+  background-color: #e0d4ec;
   align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 20px solid rgba(73, 73, 73, 0.8);
+  border-width: 20px 0;
+  border-image: repeating-linear-gradient( -45deg, transparent, transparent 5px, #3d3d3d 6px, #8f779b 40px) 25 0;
 }
 
 .secondary span {
-  font-size: 13px;
-  color: #6b86c0;
+  font-size: 18px;
+  color: #1f3d7d;
 }
 
 /* Div Link IDs for background images */
 
 .screen-title {
-  background-image: url("./assets/images/final-project-1-application.PNG");
+  background-image: url("./assets/images/screentitlescanner.png");
   background-size: cover;
+  background-position: 65% 0;
   opacity: .6;
 }
 
 .screen-title:hover {
+  opacity: 1;
+}
+
+.weather {
+  background-image: url("./assets/images/weatherinformerindex.png");
+  background-size: cover;
+  opacity: .6;
+}
+
+.weather:hover {
   opacity: 1;
 }
 
@@ -232,33 +282,34 @@ button:hover {
   opacity: 1;
 }
 
-.calculator {
-  background-image: url("./assets/images/codecademy-portfolio-project.png");
+.thought {
+  background-image: url("./assets/images/thoughtbubbleboards.png");
   background-size: cover;
+  background-position: 75% 0;
   opacity: .6;
 }
 
-.calculator:hover {
+.thought:hover {
   opacity: 1;
 }
 
-.pastel-puzzles {
-  background-image: url("./assets/images/codecademy-portfolio-project.png");
+.codeq {
+  background-image: url("./assets/images/codequiz.png");
   background-size: cover;
   opacity: .6;
 }
 
-.pastel-puzzles:hover {
+.codeq:hover {
   opacity: 1;
 }
 
-.run-buddy {
-  background-image: url("./assets/images/codecademy-portfolio-project.png");
+.workday {
+  background-image: url("./assets/images/workdayscheduler.png");
   background-size: cover;
   opacity: .6;
 }
 
-.run-buddy:hover {
+.workday:hover {
   opacity: 1;
 }
 
@@ -282,6 +333,7 @@ button:hover {
 .secondary {
   flex-direction: row;
   flex: 1 100%;
+  height: 350px;
 }
 
 /* Portfolio styles END */ 
@@ -289,6 +341,7 @@ button:hover {
 
 .box {
   margin-bottom: 45px;
+  display: flex;
 }
 
 .fontTwoA {
@@ -308,3 +361,1105 @@ button:hover {
 .marginLeft {
   margin-left: 45px;
 }
+
+/* MEDIA QUERY- smaller desktop screens and smaller */
+@media screen and (max-width: 915px) {
+  .mobileFooter {
+    text-align: left;
+    height: 850px;
+  }
+
+  * {
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+
+  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+    opacity: .9;
+  }
+
+  .container {
+    margin: 0px;
+  }
+
+  .main-container {
+    flex: 1 35%;
+    border-radius: 0px;
+  }
+
+  .secondary {
+    border-top: 5px solid #9983c1;
+  }
+
+  .secondary p {
+    font-size: 18px;
+  }
+
+  .secondary span {
+    font-size: 15px;
+  }
+
+  .mobileAbout {
+    height: 600px;
+    margin-bottom: 0px;
+  } 
+
+  .mobileContact {
+    /* height: 545px; */
+  }
+
+  .mobilePortfolio {
+    height: 1600px;
+  }
+
+  .box {
+    margin-left: 20px;
+  }
+
+  .mobileResume {
+    height: 900px;
+  } 
+
+  .border {
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .pdf {
+    width: 600px;
+  }
+
+  .bodyFont {
+    padding-right: 90px;
+  }
+}
+
+/* MEDIA QUERY- tablets and smaller */
+@media screen and (max-width: 820px) {
+  .mobileFooter {
+    text-align: left;
+    height: 650px;
+  }
+
+  * {
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+
+  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+    opacity: .9;
+  }
+
+  .container {
+    margin: 0px;
+  }
+
+  .main-container {
+    flex: 1 35%;
+    border-radius: 0px;
+  }
+
+  .secondary {
+    border-top: 5px solid #9983c1;
+  }
+
+  .secondary p {
+    font-size: 18px;
+  }
+
+  .secondary span {
+    font-size: 15px;
+  }
+
+  .mobileAbout {
+    height: 600px;
+    margin-bottom: 0px;
+  } 
+
+  .mobileContact {
+    /* height: 545px; */
+  }
+
+  .mobilePortfolio {
+    height: 1600px;
+  }
+
+  .box {
+    margin-left: 20px;
+  }
+
+  .mobileResume {
+    height: 900px;
+  } 
+
+  .border {
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .pdf {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .mobileFooter {
+    text-align: left;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  h3 {
+    flex-direction: row;
+  }
+
+  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+    background-size: contain;
+    opacity: .9;
+  }
+
+  .main-container {
+    flex: 1 25%;
+  }
+
+  .border, .main-container {
+    border-radius: 0px;
+  }
+
+  .secondary p {
+    font-size: 18px;
+  }
+
+  .secondary span {
+    font-size: 15px;
+  }
+
+  .main-program {
+    flex: 1 35%;
+  }
+
+  .other-container {
+    flex: 0 55%;
+  }
+
+  .mobileAbout {
+    height: auto;
+  }
+
+  .bodyFont {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 37px;
+  }
+  
+  .container {
+    margin-left: 30px;
+  }
+
+  .mobileContact {
+    height: auto;
+  }
+
+  .mobilePortfolio {
+    height: auto;
+  }
+
+  .mobileResume {
+    height: auto;
+  }
+
+  .mobileFooter {
+    height: 240px;
+    overflow-x: hidden;
+    text-align: left;
+  } 
+
+  h3 {
+    flex: none;
+    margin-left: 0px;
+  }
+
+  .bodyFontAlt {
+    margin-left: 0px;
+    height: 75px;
+    padding-left: 50px;
+    margin-top: 7px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bodyFont {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    display: block;
+    margin: 0px;
+  }
+
+  form {
+    width: 350px;
+    padding-left: 0px;
+    margin-left: 15px;
+    padding-left: 17px
+  }
+
+  /* .contact-form {
+    width: 100%;
+  } */
+
+  textarea {
+    width: 325px;
+  }
+
+  .width {
+    width: 325px;
+  }
+
+  .pdf {
+    height: 550px;
+    width: 450px;
+  }
+
+  .box {
+    margin-left: 0px;
+  }
+
+  .marginLeft {
+    margin-left: 41px;
+  }
+
+  .marginBot {
+    margin-bottom: 63px;
+  }
+}
+
+/* MEDIA QUERY - Phones and smaller */ 
+
+@media screen and (max-width: 450px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  h3 {
+    flex-direction: row;
+  }
+
+  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+    background-size: contain;
+    opacity: .9;
+  }
+
+  .main-container {
+    flex: 1 25%;
+  }
+
+  .border, .main-container {
+    border-radius: 0px;
+  }
+
+  .secondary p {
+    font-size: 18px;
+  }
+
+  .secondary span {
+    font-size: 15px;
+  }
+
+  .main-program {
+    flex: 1 35%;
+  }
+
+  .other-container {
+    flex: 0 55%;
+  }
+
+  .mobileAbout {
+    height: auto;
+  }
+
+  .bodyFont {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 37px;
+  }
+  
+  .container {
+    margin-left: 30px;
+  }
+
+  .mobileContact {
+    height: auto;
+  }
+
+  .mobilePortfolio {
+    height: auto;
+  }
+
+  .mobileResume {
+    height: auto;
+  }
+
+  .mobileFooter {
+    height: 240px;
+    overflow-x: hidden;
+    text-align: left;
+  } 
+
+  h3 {
+    flex: none;
+    margin-left: 0px;
+  }
+
+  .bodyFontAlt {
+    margin-left: 0px;
+    height: 75px;
+    padding-left: 50px;
+    margin-top: 7px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bodyFont {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    display: block;
+    margin: 0px;
+  }
+
+  form {
+    width: 350px;
+    padding-left: 0px;
+    margin-left: 15px;
+    padding-left: 17px
+  }
+
+  /* .contact-form {
+    width: 100%;
+  } */
+
+  textarea {
+    width: 325px;
+  }
+
+  .width {
+    width: 325px;
+  }
+
+  .pdf {
+    height: 350px;
+    width: 350px;
+  }
+
+  .box {
+    margin-left: 0px;
+  }
+
+  .marginLeft {
+    margin-left: 15px;
+  }
+
+  .marginBot {
+    margin-bottom: 63px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .border, .main-container {
+    border-radius: 0px;
+  }
+
+  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+    background-size: contain;
+    opacity: .9;
+  }
+
+  .secondary p {
+    font-size: 18px;
+  }
+
+  .secondary span {
+    font-size: 15px;
+  }
+
+  .main-program {
+    min-height: 200px;
+  }
+
+  .secondary {
+    height: 200px;
+  }
+
+  .container {
+    margin-left: 30px;
+  }
+
+  h3 {
+    flex-direction: row;
+  }
+
+  .main-container {
+    flex: 1 25%;
+  }
+
+  .main-program {
+    flex: 1 35%;
+  }
+
+  .other-container {
+    flex: 0 55%;
+  }
+
+  /* .mobileAbout {
+    height: 735px;
+  } */
+
+  .bodyFont {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 37px;
+  }
+
+  /* .mobileContact {
+    height: 545px;
+  }
+
+  .mobilePortfolio {
+    height: 1300px;
+  }
+
+  .mobileResume {
+    height: 1300px;
+  }
+
+  */
+
+  .mobileFooter {
+    height: 325px;
+    overflow-x: hidden;
+    text-align: center;
+  } 
+
+  h3 {
+    flex: none;
+    margin-left: 0px;
+  }
+
+  .bodyFontAlt {
+    margin-left: 0px;
+    height: 75px;
+    padding-left: 50px;
+    margin-top: 7px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bodyFont {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    display: block;
+    margin: 0px;
+  }
+
+  form {
+    width: 350px;
+    padding-left: 0px;
+    margin-left: 15px;
+    padding-left: 17px
+  }
+
+  /* .contact-form {
+    width: 100%;
+  } */
+
+  textarea {
+    width: 325px;
+  }
+
+  .width {
+    width: 325px;
+  }
+
+  .pdf {
+    height: 350px;
+    width: 350px;
+  }
+
+  .box {
+    margin-left: 0px;
+  }
+
+  .marginLeft {
+    margin-left: 22px;
+  }
+
+  .marginBot {
+    margin-bottom: 63px;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .border, .main-container {
+    border-radius: 0px;
+  }
+
+  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+    background-size: contain;
+    opacity: .9;
+  }
+
+  .secondary p {
+    font-size: 18px;
+  }
+
+  .secondary span {
+    font-size: 15px;
+  }
+
+  h3 {
+    flex-direction: row;
+  }
+
+  .main-container {
+    flex: 1 25%;
+  }
+
+  .container {
+    margin-left: 30px;
+  }
+
+  .main-program {
+    flex: 1 35%;
+  }
+
+  .other-container {
+    flex: 0 55%;
+  }
+
+  /* .mobileAbout {
+    height: 735px;
+  } */
+
+  .bodyFont {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 37px;
+  }
+
+   .mobileContact {
+    height: 550px;
+  }
+
+  /*
+
+  .mobilePortfolio {
+    height: 1300px;
+  }
+
+  .mobileResume {
+    height: 1300px;
+  }
+
+  */
+
+  .mobileFooter {
+    height: 260px;
+    overflow-x: hidden;
+  } 
+
+  h3 {
+    flex: none;
+    margin-left: 0px;
+  }
+
+  .bodyFontAlt {
+    margin-left: 0px;
+    height: 75px;
+    padding-left: 50px;
+    margin-top: 7px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bodyFont {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    display: block;
+    margin: 0px;
+  }
+
+  form {
+    width: 350px;
+    margin-left: 15px;
+    padding-left: 6px
+  }
+
+  /* .contact-form {
+    width: 100%;
+  } */
+
+  textarea {
+    width: 325px;
+  }
+
+  .width {
+    width: 325px;
+  }
+
+  .pdf {
+    height: 350px;
+    width: 350px;
+  }
+
+  .box {
+    margin-left: 0px;
+  }
+
+  .marginLeft {
+    margin-left: 20px;
+  }
+
+  .marginBot {
+    margin-bottom: 63px;
+  }
+}
+
+/* , (max-height: 667px) */
+@media screen and (max-width: 379px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .border, .main-container {
+    border-radius: 0px;
+  }
+
+  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+    background-size: contain;
+    opacity: .9;
+  }
+
+  .secondary p {
+    font-size: 18px;
+  }
+
+  .secondary span {
+    font-size: 15px;
+  }
+
+  .secondary {
+    border-top: 4px solid #9983c1;
+  }
+
+  h3 {
+    flex-direction: row;
+  }
+
+  .main-container {
+    flex: 1 25%;
+  }
+  
+  .container {
+    margin-left: 30px;
+  }
+
+  .main-program {
+    flex: 1 100%;
+    height: 200px;
+  }
+
+  .other-container {
+    flex: 0 55%;
+  }
+
+  /* .mobileAbout {
+    height: 735px;
+  } */
+
+  .bodyFont {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 37px;
+  }
+
+  .mobileContact {
+    height: 550px;
+  }
+
+  /*
+
+  .mobilePortfolio {
+    height: 1300px;
+  }
+
+  .mobileResume {
+    height: 1300px;
+  }
+
+  */
+
+  .mobileFooter {
+    height: 180px;
+    overflow-x: hidden;
+    /* text-align: center; */
+  } 
+
+  h3 {
+    flex: none;
+    margin-left: 0px;
+  }
+
+  .bodyFontAlt {
+    margin-left: 0px;
+    height: 75px;
+    padding-left: 50px;
+    margin-top: 7px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bodyFont {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    display: block;
+    margin: 0px;
+  }
+
+  form {
+    width: 350px;
+    padding-left: 0px;
+    margin-left: 15px;
+    padding-left: 5px
+  }
+
+  /* .contact-form {
+    width: 100%;
+  } */
+
+  textarea {
+    width: 280px;
+  }
+
+  .width {
+    width: 280px;
+  }
+
+  .pdf {
+    height: 350px;
+    width: 320px;
+  }
+
+  .box {
+    margin-left: 0px;
+  }
+
+  .marginLeft {
+    margin-left: 22px;
+  }
+
+  .marginBot {
+    margin-bottom: 15px;
+  }
+}
+
+/* , (max-height: 740px)  */
+@media screen and (max-width: 365px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .border, .main-container {
+    border-radius: 0px;
+  }
+
+  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+    background-size: contain;
+    opacity: .9;
+  }
+
+  .secondary p {
+    font-size: 18px;
+  }
+
+  .secondary span {
+    font-size: 15px;
+  }
+
+  h3 {
+    flex-direction: row;
+  }
+
+  .main-container {
+    flex: 1 25%;
+  }
+
+  .container {
+    margin-left: 30px;
+  }
+
+  .main-program {
+    flex: 1 35%;
+  }
+
+  .other-container {
+    flex: 0 55%;
+  }
+
+  /* .mobileAbout {
+    height: 735px;
+  } */
+
+  .bodyFont {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 37px;
+  }
+
+   .mobileContact {
+    height: 610px;
+  }
+
+  /*
+
+  .mobilePortfolio {
+    height: 1300px;
+  }
+
+  .mobileResume {
+    height: 1300px;
+  }
+
+  */
+
+  .mobileFooter {
+    height: 200px;
+    overflow-x: hidden;
+    /* text-align: center; */
+  } 
+
+  h3 {
+    flex: none;
+    margin-left: 0px;
+  }
+
+  .bodyFontAlt {
+    margin-left: 0px;
+    height: 75px;
+    padding-left: 50px;
+    margin-top: 7px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bodyFont {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    display: block;
+    margin: 0px;
+  }
+
+  form {
+    width: 350px;
+    padding-left: 0px;
+    margin-left: 15px;
+    padding-left: 5px
+  }
+
+  /* .contact-form {
+    width: 100%;
+  } */
+
+  textarea {
+    width: 280px;
+  }
+
+  .width {
+    width: 280px;
+  }
+
+  .pdf {
+    height: 350px;
+    width: 340px;
+  }
+
+  .box {
+    margin-left: 0px;
+  }
+
+  .marginLeft {
+    margin-left: 9px;
+  }
+
+  .marginBot {
+    margin-bottom: 15px;
+  }
+}
+
+
+/* sample phone reference 
+ MEDIA QUERY - Phones and smaller  
+@media screen and (max-width: 575px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  h3 {
+    flex-direction: row;
+  }
+
+  .main-container {
+    flex: 1 25%;
+  }
+
+  .main-program {
+    flex: 1 35%;
+  }
+
+  .other-container {
+    flex: 0 55%;
+  }
+
+  .mobileAbout {
+    height: 735px;
+  } 
+
+  .bodyFont {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 37px;
+  }
+
+  .mobileContact {
+    height: 545px;
+  }
+
+  .mobilePortfolio {
+    height: 1300px;
+  }
+
+  .mobileResume {
+    height: 1300px;
+  }
+
+  .mobileFooter {
+    height: 265px;
+    overflow-x: hidden;
+    text-align: center;
+  } 
+
+  h3 {
+    flex: none;
+    margin-left: 0px;
+  }
+
+  .bodyFontAlt {
+    margin-left: 0px;
+    height: 75px;
+    padding-left: 50px;
+    margin-top: 7px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bodyFont {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    display: block;
+    margin: 0px;
+  }
+
+  form {
+    width: 350px;
+    padding-left: 0px;
+    margin-left: 15px;
+    padding-left: 25px
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  textarea {
+    width: 325px;
+  }
+
+  .width {
+    width: 325px;
+  }
+
+  .pdf {
+    height: 350px;
+    width: 350px;
+  }
+
+  .marginLeft {
+    margin-left: 0px;
+  }
+}
+*/
+
+/* laptop full size references 
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .mobileFooter {
+      height: auto;
+      text-align: left;
+    }
+
+    .pdf {
+      width: 500px;
+      height: 500px;
+    }
+}
+
+*/

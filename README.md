@@ -5,3 +5,6 @@ To design a page which displays portfolio materials using the React library. By 
 
 ## Technologies
 React.js, Materialize CSS, React Social Icons, JavaScript
+
+## Screenshot
+<img src="./src/assets/images/reactresume.png"/>

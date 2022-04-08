@@ -21,7 +21,7 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="">
+    <header>
       <h2 className="bg fontTwo">
         <a data-testid="link" href="/">
           Gregory Carter
