@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-descriptive-materials/static/css/main.efb18b91.css",
-    "main.js": "/react-descriptive-materials/static/js/main.b9147648.js",
+    "main.css": "/react-descriptive-materials/static/css/main.51eff49f.css",
+    "main.js": "/react-descriptive-materials/static/js/main.36b2eb94.js",
     "static/js/787.5d499f72.chunk.js": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js",
     "static/media/linkedinselfie.jpg": "/react-descriptive-materials/static/media/linkedinselfie.9661e072126d3962323a.jpg",
     "static/media/screentitlescanner.png": "/react-descriptive-materials/static/media/screentitlescanner.d69de1cf5cdb8ef39d0b.png",
-    "static/media/workdayscheduler.png": "/react-descriptive-materials/static/media/workdayscheduler.d7cd39c29d702f34860a.png",
     "static/media/aurora-dark.jpg": "/react-descriptive-materials/static/media/aurora-dark.c1abd40ffe5eae7dc70d.jpg",
+    "static/media/Woscreenshot.jpg": "/react-descriptive-materials/static/media/Woscreenshot.10c0638e03ed5b2fa101.jpg",
     "static/media/weatherinformerindex.png": "/react-descriptive-materials/static/media/weatherinformerindex.618fef0bccc4e686e65e.png",
     "static/media/project-2-application.png": "/react-descriptive-materials/static/media/project-2-application.fb63d5bb71757ca87194.png",
-    "static/media/thoughtbubbleboards.png": "/react-descriptive-materials/static/media/thoughtbubbleboards.f9a2f1f4ef3ea6093436.png",
-    "static/media/GJC-Resume-placeholder.pdf": "/react-descriptive-materials/static/media/GJC-Resume-placeholder.6e769665574beeab3f20.pdf",
+    "static/media/thoughtbubbleboards.png": "/react-descriptive-materials/static/media/thoughtbubbleboards.2d6dfed5fe4ce8269fcb.png",
+    "static/media/GJCResumeMay2022.pdf": "/react-descriptive-materials/static/media/GJCResumeMay2022.7635df4ede60b8b5d8d7.pdf",
     "static/media/codequiz.png": "/react-descriptive-materials/static/media/codequiz.e89ab02214107efe0c73.png",
     "static/media/logo.svg": "/react-descriptive-materials/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-descriptive-materials/index.html",
-    "main.efb18b91.css.map": "/react-descriptive-materials/static/css/main.efb18b91.css.map",
-    "main.b9147648.js.map": "/react-descriptive-materials/static/js/main.b9147648.js.map",
+    "main.51eff49f.css.map": "/react-descriptive-materials/static/css/main.51eff49f.css.map",
+    "main.36b2eb94.js.map": "/react-descriptive-materials/static/js/main.36b2eb94.js.map",
     "787.5d499f72.chunk.js.map": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efb18b91.css",
-    "static/js/main.b9147648.js"
+    "static/css/main.51eff49f.css",
+    "static/js/main.36b2eb94.js"
   ]
 }
