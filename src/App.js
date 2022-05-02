@@ -23,7 +23,7 @@ function App() {
     },
     { section: 'Portfolio', description: 'Please consider examining any number of the following projects, which were sourced from some of the more exemplary coursework of the boot camp.', icon:'dashboard' },
     { section: 'Contact', description: 'Use this form to contact me with any questions or inquiries.', icon:'message' },
-    { section: 'Resume', description: 'This resume is a work in progress to designate my skills and qualifications regarding web development.', icon:'note' },
+    { section: 'Resume', description: 'This resume reflects upon my acquired skills and qualifications regarding web development.', icon:'note' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

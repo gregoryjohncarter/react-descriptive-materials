@@ -111,6 +111,10 @@ section {
   padding-bottom: 15px;
 }
 
+.width {
+    margin-left: 30px;
+}
+
 .bodyFontAlt {
   color: #9983c1;
   margin-left: 15px;
@@ -159,7 +163,8 @@ nav {
 }
 
 .gray {
-  color: whitesmoke;
+  color: #c8bddc;
+  font-size: 20px;
 }
 
 .slightBot {
@@ -187,6 +192,7 @@ button:hover {
 .border {
   border: 10px solid #9983c1;
   border-radius: 125px;
+  overflow: hidden;
 }
 
 .row {
@@ -303,13 +309,14 @@ button:hover {
   opacity: 1;
 }
 
-.workday {
-  background-image: url("./assets/images/workdayscheduler.png");
+.wo {
+  background-image: url("./assets/images/Woscreenshot.jpg");
   background-size: cover;
+  background-position: 35%;
   opacity: .6;
 }
 
-.workday:hover {
+.wo:hover {
   opacity: 1;
 }
 
@@ -334,6 +341,11 @@ button:hover {
   flex-direction: row;
   flex: 1 100%;
   height: 350px;
+}
+
+.contact {
+    font-size: 25px;
+    border-bottom: 5px solid #463c56;
 }
 
 /* Portfolio styles END */ 
@@ -380,7 +392,7 @@ button:hover {
     background-repeat: no-repeat;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
     opacity: .9;
   }
 
@@ -452,7 +464,7 @@ button:hover {
     overflow-y: visible;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
     opacity: .9;
   }
 
@@ -529,7 +541,7 @@ button:hover {
     background-repeat: no-repeat;
   }
 
-  .weather, .citizenship, .thought, .codeq, .workday {
+  .weather, .citizenship, .thought, .codeq, .wo {
     background-size: 550px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -557,7 +569,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
     background-size: contain;
     background-repeat: inherit;
     background-position-x: left;
@@ -698,7 +710,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
     background-size: 400px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -836,7 +848,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
     background-size: 400px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -984,7 +996,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
     background-size: 400px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -1029,9 +1041,9 @@ button:hover {
     margin-left: 37px;
   }
 
-   .mobileContact {
+   /* .mobileContact {
     height: 550px;
-  }
+  } */
 
   /*
 
@@ -1124,7 +1136,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
     background-size: 400px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -1174,9 +1186,9 @@ button:hover {
     margin-left: 37px;
   }
 
-  .mobileContact {
+  /* .mobileContact {
     height: 550px;
-  }
+  } */
 
   /*
 
@@ -1271,7 +1283,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .workday {
+  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
     background-size: 400px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -1316,9 +1328,9 @@ button:hover {
     margin-left: 37px;
   }
 
-   .mobileContact {
+   /* .mobileContact {
     height: 610px;
-  }
+  } */
 
   /*
 
