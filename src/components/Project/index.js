@@ -29,7 +29,7 @@ function Project() {
         <div className="row">
         <div className="col s12 m5 l6 colFlex">
             <div className="secondary wo" onClick={(event) => { handleClick('https://powerful-beach-20504.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
-              <SocialIcon url='https://github.com/ryanweiler92/Workout-Assistant' className="iconHover" bgColor="#e0d4ec" fgColor="#2d2d2d" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA grating">Workout Assistant<span className="fontOneA">&rarr; MERN, GraphQL</span></p>
+              <SocialIcon url='https://github.com/ryanweiler92/Workout-Assistant' className="iconHover" bgColor="#e0d4ec" fgColor="#2d2d2d" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA grating">Workout Assistant<span className="fontOneA">&rarr; MERN, Apollo Server</span></p>
             </div>
           </div>
           <div className="col s12 m5 l6 colFlex">
@@ -41,8 +41,8 @@ function Project() {
         </div>
         <div className="row">
           <div className="col s12 m5 l6 colFlex">
-            <div className="secondary codeq" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/code-quiz/', event); }} style={{cursor:"pointer"}}>
-              <SocialIcon url='https://github.com/gregoryjohncarter/code-quiz' className="iconHover" bgColor="#e0d4ec" fgColor="#2d2d2d" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA">Code Quiz<span className="fontOneA">&rarr; JS</span></p>
+            <div className="secondary codeq" onClick={(event) => { handleClick('https://literatureleadsledger.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
+              <SocialIcon url='https://github.com/gregoryjohncarter/literature-leads-ledger' className="iconHover" bgColor="#e0d4ec" fgColor="#2d2d2d" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA">Literature Leads Ledger<span className="fontOneA">&rarr; MERN, Google Books API</span></p>
             </div>
           </div>
           <div className="col s12 m5 l6 colFlex">
