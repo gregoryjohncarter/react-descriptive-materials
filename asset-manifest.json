@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-descriptive-materials/static/css/main.ce92ec4f.css",
-    "main.js": "/react-descriptive-materials/static/js/main.f7c00a16.js",
+    "main.js": "/react-descriptive-materials/static/js/main.601a46a7.js",
     "static/js/787.5d499f72.chunk.js": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js",
     "static/media/linkedinselfie.jpg": "/react-descriptive-materials/static/media/linkedinselfie.9661e072126d3962323a.jpg",
     "static/media/screentitlescanner.png": "/react-descriptive-materials/static/media/screentitlescanner.d69de1cf5cdb8ef39d0b.png",
@@ -11,15 +11,15 @@
     "static/media/weatherinformerindex.png": "/react-descriptive-materials/static/media/weatherinformerindex.618fef0bccc4e686e65e.png",
     "static/media/project-2-application.png": "/react-descriptive-materials/static/media/project-2-application.fb63d5bb71757ca87194.png",
     "static/media/thoughtbubbleboards.png": "/react-descriptive-materials/static/media/thoughtbubbleboards.2d6dfed5fe4ce8269fcb.png",
-    "static/media/GJCResumeAugust2022.pdf": "/react-descriptive-materials/static/media/GJCResumeAugust2022.72cc3d9f6ac2511efb54.pdf",
+    "static/media/GJCResumeSeptember2022.pdf": "/react-descriptive-materials/static/media/GJCResumeSeptember2022.1ec1d5be6c4d68c5144e.pdf",
     "static/media/logo.svg": "/react-descriptive-materials/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-descriptive-materials/index.html",
     "main.ce92ec4f.css.map": "/react-descriptive-materials/static/css/main.ce92ec4f.css.map",
-    "main.f7c00a16.js.map": "/react-descriptive-materials/static/js/main.f7c00a16.js.map",
+    "main.601a46a7.js.map": "/react-descriptive-materials/static/js/main.601a46a7.js.map",
     "787.5d499f72.chunk.js.map": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce92ec4f.css",
-    "static/js/main.f7c00a16.js"
+    "static/js/main.601a46a7.js"
   ]
 }
