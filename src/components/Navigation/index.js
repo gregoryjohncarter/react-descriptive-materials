@@ -23,7 +23,7 @@ function Nav(props) {
   return (
     <header>
       <h2 className="bg fontTwo">
-        <a data-testid="link" href="/">
+        <a data-testid="link" href="." className='pointer'>
           Gregory Carter
         </a>
       </h2>
