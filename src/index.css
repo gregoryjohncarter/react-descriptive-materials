@@ -245,13 +245,13 @@ button:hover {
   opacity: 1;
 }
 
-.weather {
-  background-image: url("./assets/images/weatherinformerindex.png");
+.blackjack {
+  background-image: url("./assets/images/blackjack.png");
   background-size: cover;
   opacity: .6;
 }
 
-.weather:hover {
+.blackjack:hover {
   opacity: 1;
 }
 
@@ -266,9 +266,8 @@ button:hover {
 }
 
 .thought {
-  background-image: url("./assets/images/thoughtbubbleboards.png");
+  background-image: url("./assets/images/ntatproject.png");
   background-size: cover;
-  background-position: 75% 0;
   opacity: .6;
 }
 
@@ -377,7 +376,7 @@ button:hover {
     opacity: .9;
   }
 
-  .weather, .citizenship, .thought, .codeq, .wo {
+  .blackjack, .citizenship, .thought, .codeq, .wo {
     opacity: .9;
   }
 
@@ -431,7 +430,7 @@ button:hover {
     overflow-y: visible;
   }
 
-  .weather, .citizenship, .thought, .codeq, .wo {
+  .blackjack, .citizenship, .thought, .codeq, .wo {
     opacity: .9;
   }
 
@@ -500,7 +499,7 @@ button:hover {
     background-repeat: no-repeat;
   }
 
-  .weather, .citizenship, .thought, .codeq, .wo {
+  .blackjack, .citizenship, .thought, .codeq, .wo {
     background-size: 550px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -528,7 +527,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
+  .screen-title, .blackjack, .citizenship, .thought, .codeq, .wo {
     background-size: contain;
     background-repeat: inherit;
     background-position-x: left;
@@ -655,10 +654,16 @@ button:hover {
     background-size: contain;
   }
 
-  .weather, .citizenship, .thought, .codeq, .wo {
+  .citizenship, .thought, .codeq, .wo {
     background-size: 400px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
+    opacity: .9;
+  }
+
+  .blackjack {
+    background-size: 300px, 200px;
+    background-position: 25% 90%;
     opacity: .9;
   }
 
@@ -994,7 +999,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
+  .screen-title, .blackjack, .citizenship, .thought, .codeq, .wo {
     background-size: 400px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -1111,7 +1116,7 @@ button:hover {
     background-size: contain;
   }
 
-  .screen-title, .weather, .citizenship, .thought, .codeq, .wo {
+  .screen-title, .blackjack, .citizenship, .thought, .codeq, .wo {
     background-size: 400px, 300px;
     background-repeat: no-repeat;
     background-position-x: left;
