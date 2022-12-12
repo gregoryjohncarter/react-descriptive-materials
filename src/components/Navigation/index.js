@@ -37,7 +37,7 @@ function Nav(props) {
                   }`}
                 key={category.section}
               >
-                <span className='iconHover fontOne' onClick={() => { 
+                <span className='navStyle fontOne' onClick={() => { 
                     return (setCurrentCategory(category),
                     category.section === 'About Me' && (setShowPortfolio(false), setShowContact(false), setShowResume(false), setShowAbout(true)),
                     category.section === 'Portfolio' && (setShowAbout(false), setShowContact(false), setShowResume(false), setShowPortfolio(true)),

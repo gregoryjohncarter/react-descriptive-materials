@@ -21,7 +21,7 @@ function App() {
       description: 'During the UConn web development boot camp 2021-2022 and beyond, I have built a collection of applications which categorize as JavaScript, HTML5, CSS3, Node.js, React.js, Express.js, MySQL, Sequelize (ORM), and MongoDB. I\'ve gained proficiency in using technologies such as CSS frameworks (Materialize, Bootstrap), Redux, server-side web APIs, Handlebars templating, and the jQuery library.',
       icon: 'account_circle' 
     },
-    { section: 'Portfolio', description: 'Please consider browsing through some of my projects - some solo, some boot camp.', icon:'dashboard' },
+    { section: 'Portfolio', description: 'Here are some examples of solo projects and groupwork from a boot camp program.', icon:'dashboard' },
     { section: 'Contact', description: 'Use this form to contact me with any questions or inquiries.', icon:'message' },
     { section: 'Resume', description: 'This resume reflects upon my acquired skills and qualifications regarding web development.', icon:'note' },
   ]);
