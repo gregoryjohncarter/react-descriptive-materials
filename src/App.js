@@ -18,12 +18,12 @@ function App() {
   const [categories] = useState([
     {
       section: 'About Me',
-      description: 'During the UConn web development boot camp 2021-2022 and beyond, I have built a collection of applications which categorize as JavaScript, HTML5, CSS3, Node.js, React.js, Express.js, MySQL, Sequelize (ORM), and MongoDB. I\'ve gained proficiency in using technologies such as CSS frameworks (Materialize, Bootstrap), Redux, server-side web APIs, Handlebars templating, and the jQuery library.',
+      description: 'Web developer with a thoughtful and positive mindset, with foundation in JavaScript, HTML, CSS, React.js, and Node.js. Gained relevant experience across a range of topics during a full stack boot camp Nov. 2021 - May 2022. Other relevant skills include Bootstrap, Redux, Handlebars templating, RESTful API, GraphQL, and the jQuery library.',
       icon: 'account_circle' 
     },
-    { section: 'Portfolio', description: 'Here are some examples of solo projects and groupwork from a boot camp program.', icon:'dashboard' },
+    { section: 'Portfolio', description: 'Please consider browsing through some of my projects. Also see additional info via GitHub links next to the headings. Heroku pages may take a few seconds to load.', icon:'dashboard' },
     { section: 'Contact', description: 'Use this form to contact me with any questions or inquiries.', icon:'message' },
-    { section: 'Resume', description: 'This resume reflects upon my acquired skills and qualifications regarding web development.', icon:'note' },
+    { section: 'Resume', description: 'This resume reflects upon my acquired skills and qualifications.', icon:'note' },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

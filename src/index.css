@@ -220,7 +220,8 @@ button:hover {
 }
 
 .border {
-  border: 10px solid #a5a5a5;
+  /* border: 8px solid #9f8baf; */
+  border: 8px solid #e0e0e051;
   border-radius: 125px;
   overflow: hidden;
 }
@@ -247,9 +248,10 @@ button:hover {
   flex-direction: column;
   justify-content: flex-end;
   font-size: 25px;
-  color: #463c56;
+  color: #0c051c;
   display: inline-flex;
-  background-color: #e0d4ec;
+  background-color: #e0d4ecb0;
+  backdrop-filter: blur(10px);
   align-items: center;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -261,6 +263,8 @@ button:hover {
 .secondary span {
   font-size: 18px;
   color: #1f3d7d;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* Div Link IDs for background images */
@@ -287,7 +291,7 @@ button:hover {
 }
 
 .citizenship {
-  background-image: url("./assets/images/project-2-application.png");
+  background-image: url("./assets/images/thoughtbubbleboards.png");
   background-size: cover;
   opacity: .6;
 }
@@ -369,6 +373,7 @@ button:hover {
 
 .fontOneA {
   font-family: 'Merriweather Sans', sans-serif;
+  font-style: italic;
 }
 
 .pdf {
@@ -421,7 +426,7 @@ button:hover {
   }
 
   .secondary {
-    border-top: 5px solid #9983c1;
+    border-top: 18px inset #808080;
   }
 
   .secondary p {
@@ -486,7 +491,7 @@ button:hover {
   }
 
   .secondary {
-    border-top: 5px solid #9983c1;
+    border-top: 18px inset #808080;
   }
 
   .secondary p {
@@ -699,8 +704,8 @@ button:hover {
   }
 
   .screen-title {
-    background-size: 300px, 200px;
-    background-position: -5% 0;
+    background-size: 350px, 250px;
+    background-position: 0% 25%;
     opacity: .9;
   }
 
@@ -1046,7 +1051,7 @@ button:hover {
   }
 
   .secondary {
-    border-top: 4px solid #9983c1;
+    border-top: 4px solid #808080;
   }
 
   h3 {
