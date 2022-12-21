@@ -18,10 +18,10 @@ function App() {
   const [categories] = useState([
     {
       section: 'About Me',
-      description: 'Web developer with a thoughtful and positive mindset, with foundation in JavaScript, HTML, CSS, React.js, and Node.js. Gained relevant experience across a range of topics during a full stack boot camp Nov. 2021 - May 2022. Other relevant skills include Bootstrap, Redux, Handlebars templating, RESTful API, GraphQL, and the jQuery library.',
+      description: 'Web developer with a thoughtful and positive perspective. Possesses a strong foundation in React.js and JavaScript. Gained experience across various topics during a full stack boot camp (Nov. \'21 - May \'22). Proficiencies include HTML5, CSS3, Node.js, Bootstrap, Redux, RESTful API, GraphQL, and the jQuery library.',
       icon: 'account_circle' 
     },
-    { section: 'Portfolio', description: 'Please consider browsing through some of my projects. Also see additional info via GitHub links next to the headings. Heroku pages may take a few seconds to load.', icon:'dashboard' },
+    { section: 'Portfolio', description: 'Please consider browsing through some of my projects. Also see additional GitHub links for more info. Heroku pages may take a few seconds to load.', icon:'dashboard' },
     { section: 'Contact', description: 'Use this form to contact me with any questions or inquiries.', icon:'message' },
     { section: 'Resume', description: 'This resume reflects upon my acquired skills and qualifications.', icon:'note' },
   ]);

@@ -220,7 +220,6 @@ button:hover {
 }
 
 .border {
-  /* border: 8px solid #9f8baf; */
   border: 8px solid #e0e0e051;
   border-radius: 125px;
   overflow: hidden;
