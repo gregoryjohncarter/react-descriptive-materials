@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-descriptive-materials/static/css/main.031df73f.css",
-    "main.js": "/react-descriptive-materials/static/js/main.942c009e.js",
+    "main.css": "/react-descriptive-materials/static/css/main.e61c0bcb.css",
+    "main.js": "/react-descriptive-materials/static/js/main.8993e124.js",
     "static/js/787.5d499f72.chunk.js": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js",
     "static/media/linkedinselfie.jpg": "/react-descriptive-materials/static/media/linkedinselfie.9661e072126d3962323a.jpg",
     "static/media/screentitlescanner.png": "/react-descriptive-materials/static/media/screentitlescanner.d69de1cf5cdb8ef39d0b.png",
@@ -12,14 +12,13 @@
     "static/media/ntatproject.png": "/react-descriptive-materials/static/media/ntatproject.efb4f215f8c8d3f9d7b6.png",
     "static/media/thoughtbubbleboards.png": "/react-descriptive-materials/static/media/thoughtbubbleboards.2d6dfed5fe4ce8269fcb.png",
     "static/media/GJCResumeJan23.pdf": "/react-descriptive-materials/static/media/GJCResumeJan23.6b8d8a0a3a3a2d6c5f68.pdf",
-    "static/media/logo.svg": "/react-descriptive-materials/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-descriptive-materials/index.html",
-    "main.031df73f.css.map": "/react-descriptive-materials/static/css/main.031df73f.css.map",
-    "main.942c009e.js.map": "/react-descriptive-materials/static/js/main.942c009e.js.map",
+    "main.e61c0bcb.css.map": "/react-descriptive-materials/static/css/main.e61c0bcb.css.map",
+    "main.8993e124.js.map": "/react-descriptive-materials/static/js/main.8993e124.js.map",
     "787.5d499f72.chunk.js.map": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.031df73f.css",
-    "static/js/main.942c009e.js"
+    "static/css/main.e61c0bcb.css",
+    "static/js/main.8993e124.js"
   ]
 }
