@@ -24,6 +24,31 @@ code {
   width: 85%;
 }
 
+.z-index-top {
+  z-index: 5;
+  position: relative;
+}
+
+.z-index-bot {
+  z-index: 1;
+}
+
+.z-index-neg {
+  z-index: -1;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
+}
+
+.animate__animated.animate__flipInX {
+  --animate-duration: 2s;
+}
+
+.palatino {
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucia Sans Unicode', 'Lucida Sans', 'Tahoma', 'sans-serif'
+}
+
 nav a:hover {
   text-decoration: none;
 }
@@ -143,7 +168,7 @@ section {
 }
 
 .width {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .bodyFontAlt {
@@ -176,17 +201,12 @@ section {
   font-weight: bolder;
 }
 
-.marginBot {
-  margin-bottom: 45px;
-  margin-left: 30px;
-}
-
 .marginTop {
   margin-top: 15px;
 }
 
 form {
-  width: 500px;
+  width: 424px;
   margin-left: 35px;
 }
 
@@ -197,6 +217,7 @@ nav {
 .gray {
   color: #c8bddc;
   font-size: 20px;
+  font-family: math;
 }
 
 .slightBot {
@@ -354,8 +375,9 @@ button:hover {
 }
 
 .contact {
-    font-size: 25px;
-    border-bottom: 5px solid #463c56;
+  font-family: 'Book Antiqua', 'Georgia', 'Serif';
+  font-size: 25px;
+  border-bottom: 5px solid #463c56;
 }
 
 /* Portfolio styles END */ 
@@ -390,6 +412,29 @@ button:hover {
 
 .pointer {
   cursor: default;
+}
+
+@keyframes wiper-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(.75, .025);
+	}
+}
+
+.wiper-enter {
+  animation-name: wiper-enter;
+  animation-duration: 1.25s;
+  animation-iteration-count: ease-in;
+}
+
+.resume {
+  margin-left: 45px;
+}
+
+.marginBot {
+  float: right;
 }
 
 /* MEDIA QUERY- smaller desktop screens and smaller */
@@ -799,8 +844,8 @@ button:hover {
   }
 
   .pdf {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
   }
 
   .box {
@@ -1009,7 +1054,7 @@ button:hover {
 
   .pdf {
     height: 350px;
-    width: 350px;
+    width: 300px;
   }
 
   .box {
@@ -1017,7 +1062,7 @@ button:hover {
   }
 
   .marginLeft {
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 
@@ -1131,10 +1176,6 @@ button:hover {
 
   .marginLeft {
     margin-left: 22px;
-  }
-
-  .marginBot {
-    margin-bottom: 25px;
   }
 }
 

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import M from 'materialize-css';
 import { useState } from 'react';
@@ -7,7 +6,6 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
-import Footer from './components/Footer';
 
 function App() {
   const [showAbout, setShowAbout] = useState(true);
@@ -18,7 +16,7 @@ function App() {
   const [categories] = useState([
     {
       section: 'About Me',
-      description: 'Web developer with a thoughtful and positive perspective. Possesses a strong foundation in React.js and JavaScript. Gained experience across various topics during a full stack boot camp (Nov. \'21 - May \'22). Proficiencies include HTML5, CSS3, Node.js, Bootstrap, Redux, RESTful API, GraphQL, and the jQuery library.',
+      description: 'Web developer with a thoughtful and positive perspective. Possesses a strong foundation in React.js and JavaScript. Gained experience across various topics during a full stack boot camp. Proficiencies include HTML5, CSS3, Node.js, Bootstrap, Redux, RESTful API, GraphQL, and jQuery.',
       icon: 'account_circle' 
     },
     { section: 'Portfolio', description: 'Please consider browsing through some of my projects. Also see additional GitHub links for more info. Heroku pages may take a few seconds to load.', icon:'dashboard' },
@@ -62,11 +60,6 @@ function App() {
               {resume}
             </div>
           </main>
-        </div>
-      </div>
-      <div className='row'>
-        <div className='col s12'>
-          <Footer></Footer>
         </div>
       </div>
     </div>

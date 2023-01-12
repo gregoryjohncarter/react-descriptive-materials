@@ -6,10 +6,9 @@ function Resume({ currentCategory }) {
   return (
     <div className="mobileResume">
       <section className="fontOne">
-        <h3 data-testid="h3tag" className="bodyFontAlt"><i className="small material-icons">{icon}</i>{section}</h3>
-        <p className="bodyFont">{description}</p>
+        <h3 data-testid="h3tag" className="bodyFontAlt animate__animated animate__fadeIn resume"><i className="small material-icons">{icon}</i>{section}</h3>
       </section>
-      <iframe className="pdf marginBot marginLeft" src={`${Pdf}#view=fitH`} title="GregorysResume" height="100%" width="100%"/>
+      <iframe className="pdf marginLeft" src={`${Pdf}#view=fitH`} title="GregorysResume" height="100%" width="100%"/>
     </div>
   );
 }

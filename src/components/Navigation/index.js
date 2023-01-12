@@ -21,9 +21,9 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header>
+    <header className='z-index-top'>
       <h2 className="bg fontTwo">
-        <a data-testid="link" href="." className='pointer'>
+        <a data-testid="link" href="." className='pointer palatino'>
           Gregory Carter
         </a>
       </h2>
