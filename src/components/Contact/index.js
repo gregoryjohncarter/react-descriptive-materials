@@ -1,18 +1,20 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import M from 'materialize-css';
 import { SocialIcon } from 'react-social-icons';
 
 function ContactForm({ currentCategory }) {
   const { section, description, icon } = currentCategory;
+  const [displayContact, setDisplayContact] = useState(false);
 
   useEffect(() => {
-    const contact = document.querySelector('.mobileContact');
-    contact.classList.remove('scaleStart');
+    setTimeout(() => {
+      setDisplayContact(true);
+    }, 400);
   }, []);
   
   return (
     <>
-      <div className="mobileContact scaleStart wiper-enter box-bottom">
+      {displayContact && <div className="mobileContact wiper-enter box-bottom">
         <section className="fontOne aboutMargin">
           <h3 data-testid="h3tag" className="bodyFontAlt animate__animated animate__fadeIn"><i className="small material-icons">{icon}</i>{section}</h3>
         </section>
@@ -30,7 +32,7 @@ function ContactForm({ currentCategory }) {
             <SocialIcon url="https://github.com/gregoryjohncarter" className="socialHover" bgColor="#b1da6f" target="_blank"/>
           </footer>
         </form>
-      </div>
+      </div>}
    </>
   )
 }

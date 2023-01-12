@@ -439,11 +439,6 @@ button:hover {
 .wiper-enter {
   animation-name: wiper-enter;
   animation-duration: 1.25s;
-  animation-iteration-count: ease-in;
-}
-
-.scaleStart {
-  transform: scale(0, .025);
 }
 
 .resume {
