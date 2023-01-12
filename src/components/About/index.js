@@ -6,7 +6,7 @@ function About({ currentCategory }) {
 
   return (
     <div className="mobileAbout z-index-bot">
-      <section className="fontOne">
+      <section className="fontOne aboutMargin">
         <h3 id="" className="bodyFontAlt animate__animated animate__fadeIn"><i className="small material-icons">{icon}</i>{section}</h3>
         <p className="bodyFont animate__animated animate__fadeInDown">{description}</p>
       </section>

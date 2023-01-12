@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import M from 'materialize-css';
 import { SocialIcon } from 'react-social-icons';
 
 function ContactForm({ currentCategory }) {
   const { section, description, icon } = currentCategory;
+
+  useEffect(() => {
+    const contact = document.querySelector('.mobileContact');
+    contact.classList.remove('scaleStart');
+  }, []);
   
   return (
     <>
-      <div className="mobileContact wiper-enter">
-        <section className="fontOne">
+      <div className="mobileContact scaleStart wiper-enter box-bottom">
+        <section className="fontOne aboutMargin">
           <h3 data-testid="h3tag" className="bodyFontAlt animate__animated animate__fadeIn"><i className="small material-icons">{icon}</i>{section}</h3>
         </section>
         <form id="contact-form">

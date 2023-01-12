@@ -1,6 +1,6 @@
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #acfeeb;
   --bg: #342547;
   --test: #2d2d2d;
 }
@@ -22,6 +22,14 @@ code {
 
 .container {
   width: 85%;
+}
+
+.aboutMargin {
+  margin-left: 25px;
+}
+
+.portfolioMargin {
+  margin-left: -35px;
 }
 
 .z-index-top {
@@ -103,6 +111,7 @@ textarea {
 
 .navActive {
   color: var(--secondary);
+  font-weight: bold;
 }
 
 .iconHover, .socialHover {
@@ -160,7 +169,7 @@ section {
 
 .bodyFont {
   color: #c8bddc;
-  font-size: 20px;
+  font-size: 19.5px;
   padding-left: 20px;
   padding-right: 45px;
   padding-top: 15px;
@@ -178,13 +187,13 @@ section {
 }
 
 .imgGreg {
-    max-width: 450px;
-    padding: 1rem;
-    position: relative;
-    background: linear-gradient(to bottom, rgb(82, 40, 146), rgb(69, 37, 110));
-    padding: 10px;
-    opacity: 1;
-    margin-bottom: 15px;
+  max-width: 450px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to bottom, rgb(82, 40, 146), rgb(69, 37, 110));
+  padding: 10px;
+  opacity: 1;
+  margin-bottom: 15px;
 }
 
 .inline {
@@ -238,6 +247,10 @@ button:hover {
   width: 750px;
   border-radius: 100px;
   overflow: hidden;
+}
+
+.box-bottom {
+  margin-bottom: 45px;
 }
 
 .border {
@@ -429,6 +442,10 @@ button:hover {
   animation-iteration-count: ease-in;
 }
 
+.scaleStart {
+  transform: scale(0, .025);
+}
+
 .resume {
   margin-left: 45px;
 }
@@ -461,7 +478,7 @@ button:hover {
   }
 
   .container {
-    margin: 0px;
+    margin-left: 35px;
   }
 
   .main-container {
@@ -501,6 +518,10 @@ button:hover {
   .pdf {
     width: 600px;
   }
+
+  .portfolioMargin {
+    margin-left: -15px;
+  }
 }
 
 /* MEDIA QUERY- tablets and smaller */
@@ -522,10 +543,6 @@ button:hover {
 
   .bg {
     background-size: 837px 437px;
-  }
-
-  .container {
-    margin: 0px;
   }
 
   .main-container {
@@ -644,7 +661,7 @@ button:hover {
 
   .bodyFont {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 22.5px;
     margin-left: 37px;
     padding-right: 40px;
   }
@@ -781,9 +798,12 @@ button:hover {
     height: auto;
   }
 
+  .aboutMargin {
+    margin-left: 0px;
+  }
+
   .bodyFont {
     font-size: 15px;
-    line-height: 30px;
     margin-left: 37px;
   }
   
@@ -829,7 +849,7 @@ button:hover {
   }
 
   form {
-    width: 350px;
+    width: 300px;
     padding-left: 0px;
     margin-left: 15px;
     padding-left: 17px
@@ -908,7 +928,6 @@ button:hover {
 
   .bodyFont {
     font-size: 15px;
-    line-height: 30px;
     margin-left: 37px;
   }
 
@@ -938,7 +957,7 @@ button:hover {
   }
 
   form {
-    width: 350px;
+    width: 300px;
     padding-left: 0px;
     margin-left: 15px;
     padding-left: 17px
@@ -1009,7 +1028,6 @@ button:hover {
 
   .bodyFont {
     font-size: 15px;
-    line-height: 30px;
     margin-left: 37px;
   }
 
@@ -1039,7 +1057,7 @@ button:hover {
   }
 
   form {
-    width: 350px;
+    width: 300px;
     margin-left: 15px;
     padding-left: 6px
   }
@@ -1121,7 +1139,6 @@ button:hover {
 
   .bodyFont {
     font-size: 15px;
-    line-height: 30px;
     margin-left: 37px;
   }
 
@@ -1151,7 +1168,7 @@ button:hover {
   }
 
   form {
-    width: 350px;
+    width: 300px;
     padding-left: 0px;
     margin-left: 15px;
     padding-left: 5px
@@ -1229,7 +1246,6 @@ button:hover {
 
   .bodyFont {
     font-size: 15px;
-    line-height: 30px;
     margin-left: 37px;
   }
 
