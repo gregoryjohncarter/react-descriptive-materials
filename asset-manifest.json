@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-descriptive-materials/static/css/main.e61c0bcb.css",
-    "main.js": "/react-descriptive-materials/static/js/main.8993e124.js",
+    "main.css": "/react-descriptive-materials/static/css/main.68d1d631.css",
+    "main.js": "/react-descriptive-materials/static/js/main.f0aa9743.js",
     "static/js/787.5d499f72.chunk.js": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js",
     "static/media/linkedinselfie.jpg": "/react-descriptive-materials/static/media/linkedinselfie.9661e072126d3962323a.jpg",
     "static/media/screentitlescanner.png": "/react-descriptive-materials/static/media/screentitlescanner.d69de1cf5cdb8ef39d0b.png",
@@ -13,12 +13,12 @@
     "static/media/thoughtbubbleboards.png": "/react-descriptive-materials/static/media/thoughtbubbleboards.2d6dfed5fe4ce8269fcb.png",
     "static/media/GJCResumeJan23.pdf": "/react-descriptive-materials/static/media/GJCResumeJan23.6b8d8a0a3a3a2d6c5f68.pdf",
     "index.html": "/react-descriptive-materials/index.html",
-    "main.e61c0bcb.css.map": "/react-descriptive-materials/static/css/main.e61c0bcb.css.map",
-    "main.8993e124.js.map": "/react-descriptive-materials/static/js/main.8993e124.js.map",
+    "main.68d1d631.css.map": "/react-descriptive-materials/static/css/main.68d1d631.css.map",
+    "main.f0aa9743.js.map": "/react-descriptive-materials/static/js/main.f0aa9743.js.map",
     "787.5d499f72.chunk.js.map": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e61c0bcb.css",
-    "static/js/main.8993e124.js"
+    "static/css/main.68d1d631.css",
+    "static/js/main.f0aa9743.js"
   ]
 }
