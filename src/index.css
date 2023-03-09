@@ -1,6 +1,6 @@
 :root {
   --primary: #8c54ff;
-  --secondary: #acfeeb;
+  --secondary: lightcyan;
   --bg: #342547;
   --test: #2d2d2d;
 }
@@ -112,6 +112,29 @@ textarea {
 .navActive {
   color: var(--secondary);
   font-weight: bold;
+}
+
+@keyframes pulse-blue {
+  0% {
+    border-radius: 10px;
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
+  }
+  
+  70% {
+    border-radius: 15px;
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(52, 172, 224, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
+  }
+}
+
+.navGlow {
+  animation: pulse-blue 2s infinite;
 }
 
 .iconHover, .socialHover {
@@ -316,6 +339,7 @@ button:hover {
 .blackjack {
   background-image: url("./assets/images/blackjack.png");
   background-size: cover;
+  background-position-x: -10px;
   opacity: .6;
 }
 
@@ -324,7 +348,7 @@ button:hover {
 }
 
 .citizenship {
-  background-image: url("./assets/images/thoughtbubbleboards.png");
+  background-image: url("./assets/images/tbbscreen.png");
   background-size: cover;
   opacity: .6;
 }
@@ -334,8 +358,9 @@ button:hover {
 }
 
 .thought {
-  background-image: url("./assets/images/ntatproject.png");
+  background-image: url("./assets/images/newsTATscreen.png");
   background-size: cover;
+  background-position-y: -18px;
   opacity: .6;
 }
 
