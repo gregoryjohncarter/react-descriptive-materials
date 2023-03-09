@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-descriptive-materials/static/css/main.e1b5a3b9.css",
-    "main.js": "/react-descriptive-materials/static/js/main.86d977f1.js",
+    "main.css": "/react-descriptive-materials/static/css/main.9df9ffee.css",
+    "main.js": "/react-descriptive-materials/static/js/main.42607638.js",
     "static/js/787.5d499f72.chunk.js": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js",
     "static/media/linkedinselfie.jpg": "/react-descriptive-materials/static/media/linkedinselfie.9661e072126d3962323a.jpg",
     "static/media/screentitlescanner.png": "/react-descriptive-materials/static/media/screentitlescanner.d69de1cf5cdb8ef39d0b.png",
@@ -9,16 +9,16 @@
     "static/media/aurora-dark.jpg": "/react-descriptive-materials/static/media/aurora-dark.c1abd40ffe5eae7dc70d.jpg",
     "static/media/Woscreenshot.jpg": "/react-descriptive-materials/static/media/Woscreenshot.10c0638e03ed5b2fa101.jpg",
     "static/media/literatureleadsscreenshot.png": "/react-descriptive-materials/static/media/literatureleadsscreenshot.2024dedf3408e0aa5880.png",
-    "static/media/ntatproject.png": "/react-descriptive-materials/static/media/ntatproject.efb4f215f8c8d3f9d7b6.png",
-    "static/media/thoughtbubbleboards.png": "/react-descriptive-materials/static/media/thoughtbubbleboards.2d6dfed5fe4ce8269fcb.png",
+    "static/media/newsTATscreen.png": "/react-descriptive-materials/static/media/newsTATscreen.11300b29916a435a50cd.png",
+    "static/media/tbbscreen.png": "/react-descriptive-materials/static/media/tbbscreen.2f825a1bb536df2f3649.png",
     "static/media/GJCResume.pdf": "/react-descriptive-materials/static/media/GJCResume.cb0441d47d99a441b0a0.pdf",
     "index.html": "/react-descriptive-materials/index.html",
-    "main.e1b5a3b9.css.map": "/react-descriptive-materials/static/css/main.e1b5a3b9.css.map",
-    "main.86d977f1.js.map": "/react-descriptive-materials/static/js/main.86d977f1.js.map",
+    "main.9df9ffee.css.map": "/react-descriptive-materials/static/css/main.9df9ffee.css.map",
+    "main.42607638.js.map": "/react-descriptive-materials/static/js/main.42607638.js.map",
     "787.5d499f72.chunk.js.map": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1b5a3b9.css",
-    "static/js/main.86d977f1.js"
+    "static/css/main.9df9ffee.css",
+    "static/js/main.42607638.js"
   ]
 }
