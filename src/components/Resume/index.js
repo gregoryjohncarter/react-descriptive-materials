@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from '../../assets/GJCResume.pdf'
+import Pdf from '../../assets/GJCResumeMarch.pdf'
 
 function Resume({ currentCategory }) {
   const { section, description, icon } = currentCategory;

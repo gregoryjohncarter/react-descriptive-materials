@@ -326,7 +326,7 @@ button:hover {
 /* Div Link IDs for background images */
 
 .screen-title {
-  background-image: url("./assets/images/screentitlescanner.png");
+  background-image: url("./assets/images/screenmnfv.png");
   background-size: cover;
   background-position: 65% 0;
   opacity: .6;
@@ -349,8 +349,9 @@ button:hover {
 
 .citizenship {
   background-image: url("./assets/images/tbbscreen.png");
-  background-size: cover;
+  background-size: 128%;
   opacity: .6;
+  background-position-y: -20px;
 }
 
 .citizenship:hover {
@@ -380,8 +381,9 @@ button:hover {
 
 .wo {
   background-image: url("./assets/images/Woscreenshot.jpg");
-  background-size: cover;
-  background-position: 35%;
+  background-position-y: 5px;
+  background-position-x: -80px;
+  background-size: 180%;
   opacity: .6;
 }
 
@@ -553,6 +555,10 @@ button:hover {
 
   .blackjack, .citizenship, .thought, .codeq, .wo {
     opacity: .9;
+  }
+
+  .wo {
+    background-size: 140%;
   }
 
   .screen-title {
