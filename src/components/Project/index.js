@@ -75,12 +75,12 @@ function Project() {
         <div className="row">
           <div className="col s12 l6 colFlex">
             <div className="secondary screen-title" onClick={(event) => { handleClick('https://make-notes-4-viewing.herokuapp.com/', event); }} style={{cursor:"pointer"}}> 
-              {defaultItem && <><SocialIcon url='https://github.com/gregoryjohncarter/makenotes4viewing' className="iconHover iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://make-notes-4-viewing.herokuapp.com/', event); }}>MakeNotes4Viewing <span className="fontOneA" onClick={(event) => { handleClick('https://make-notes-4-viewing.herokuapp.com/', event); }}>&rarr; React.js, Python</span></p></>}
+              {defaultItem && <><SocialIcon url='https://github.com/gregoryjohncarter/makenotes4viewing' className="iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://make-notes-4-viewing.herokuapp.com/', event); }}>MakeNotes4Viewing <span className="fontOneA" onClick={(event) => { handleClick('https://make-notes-4-viewing.herokuapp.com/', event); }}>&rarr; React.js, Python</span></p></>}
             </div>
           </div>
           <div className="col s12 l6 colFlex">
             <div className="secondary blackjack" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }} style={{cursor:"pointer"}}> 
-              {defaultItem2 && <><SocialIcon url='https://github.com/gregoryjohncarter/betwixt-blackjack' className="iconHover iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>Betwixt Blackjack <span className="fontOneA" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>&rarr; React.js</span></p></>}
+              {defaultItem2 && <><SocialIcon url='https://github.com/gregoryjohncarter/betwixt-blackjack' className="iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>Betwixt Blackjack <span className="fontOneA" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>&rarr; React.js</span></p></>}
             </div>
           </div>
         </div>
