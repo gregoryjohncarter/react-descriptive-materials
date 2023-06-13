@@ -16,7 +16,7 @@ function App() {
   const [categories] = useState([
     {
       section: 'About Me',
-      description: 'Web developer with a thoughtful and positive perspective. Possesses a strong foundation in JavaScript and React. Gained experience during completion of a full stack boot camp. Proficiencies include HTML5, CSS3, Node.js, Bootstrap, Redux, Python, RESTful API, and jQuery.',
+      description: 'Web developer with a thoughtful and positive perspective. Possesses a strong foundation in JavaScript and React. Gained experience during completion of a full stack boot camp. Proficiencies include HTML5, CSS3, Node.js, Bootstrap, Redux, Python, Java, RESTful API, and jQuery.',
       icon: 'account_circle' 
     },
     { section: 'Portfolio', description: 'Please consider browsing through some of my projects. Also see additional GitHub links for more info.', icon:'dashboard' },
