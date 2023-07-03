@@ -349,9 +349,9 @@ button:hover {
 
 .citizenship {
   background-image: url("./assets/images/tbbscreen.png");
-  background-size: 128%;
+  background-size: 148%;
   opacity: .6;
-  background-position-y: -20px;
+  background-position-y: -18px;
 }
 
 .citizenship:hover {

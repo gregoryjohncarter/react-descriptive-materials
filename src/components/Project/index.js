@@ -100,7 +100,7 @@ function Project() {
           <div className="row">
             <div  className="col s12 l6 colFlex">
               <div className="secondary citizenship" onClick={(event) => { handleClick('https://thought-bubble-boards.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
-                {item4 && <><SocialIcon url='https://github.com/gregoryjohncarter/thought-bubble-boards' className={item4 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item4 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://thought-bubble-boards.herokuapp.com/', event); }}>Thought Bubble Boards <span className="fontOneA" onClick={(event) => { handleClick('https://thought-bubble-boards.herokuapp.com/', event); }}>&rarr; MVC/Express.js, MySQL</span></p></>}
+                {item4 && <><SocialIcon url='https://github.com/gregoryjohncarter/thought-bubble-boards' className={item4 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item4 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://thought-bubble-boards.herokuapp.com/', event); }}>Thought Bubble Boards <span className="fontOneA" onClick={(event) => { handleClick('https://thought-bubble-boards.herokuapp.com/', event); }}>&rarr; Express.js, MySQL</span></p></>}
               </div>
             </div>
             <div className="col s12 l6 colFlex">
