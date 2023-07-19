@@ -74,8 +74,8 @@ function Project() {
       <div className="main-container">
         <div className="row">
           <div className="col s12 l6 colFlex">
-            <div className="secondary screen-title" onClick={(event) => { handleClick('https://make-notes-4-viewing.herokuapp.com/', event); }} style={{cursor:"pointer"}}> 
-              {defaultItem && <><SocialIcon url='https://github.com/gregoryjohncarter/makenotes4viewing' className="iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://make-notes-4-viewing.herokuapp.com/', event); }}>MakeNotes4Viewing <span className="fontOneA" onClick={(event) => { handleClick('https://make-notes-4-viewing.herokuapp.com/', event); }}>&rarr; React.js, Python</span></p></>}
+            <div className="secondary screen-title" onClick={(event) => { handleClick('https://makenotes4viewing-f4b5c41e614e.herokuapp.com/', event); }} style={{cursor:"pointer"}}> 
+              {defaultItem && <><SocialIcon url='https://github.com/gregoryjohncarter/makenotes4viewing' className="iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://makenotes4viewing-f4b5c41e614e.herokuapp.com/', event); }}>MakeNotes4Viewing <span className="fontOneA" onClick={(event) => { handleClick('https://makenotes4viewing-f4b5c41e614e.herokuapp.com/', event); }}>&rarr; React.js, Python</span></p></>}
             </div>
           </div>
           <div className="col s12 l6 colFlex">
