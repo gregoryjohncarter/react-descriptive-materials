@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-descriptive-materials/static/css/main.a3fc4477.css",
-    "main.js": "/react-descriptive-materials/static/js/main.273e8f04.js",
+    "main.js": "/react-descriptive-materials/static/js/main.38d437b9.js",
     "static/js/787.5d499f72.chunk.js": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js",
     "static/media/linkedinselfie.jpg": "/react-descriptive-materials/static/media/linkedinselfie.9661e072126d3962323a.jpg",
     "static/media/blackjack.png": "/react-descriptive-materials/static/media/blackjack.aa0c893013ec89aa2509.png",
@@ -14,11 +14,11 @@
     "static/media/GJCResume.pdf": "/react-descriptive-materials/static/media/GJCResume.851df854f1ff2a5621e1.pdf",
     "index.html": "/react-descriptive-materials/index.html",
     "main.a3fc4477.css.map": "/react-descriptive-materials/static/css/main.a3fc4477.css.map",
-    "main.273e8f04.js.map": "/react-descriptive-materials/static/js/main.273e8f04.js.map",
+    "main.38d437b9.js.map": "/react-descriptive-materials/static/js/main.38d437b9.js.map",
     "787.5d499f72.chunk.js.map": "/react-descriptive-materials/static/js/787.5d499f72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3fc4477.css",
-    "static/js/main.273e8f04.js"
+    "static/js/main.38d437b9.js"
   ]
 }
