@@ -25,15 +25,6 @@ function Project() {
   const [defaultItem, setDefaultItem] = useState(false);
   const [defaultItem2, setDefaultItem2] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setDefaultItem(true);
-      setTimeout(() => {
-        setDefaultItem2(true);
-      }, 250)
-    }, 250);
-  }, []);
-
   const [item2, setItem2] = useState(false);
   const [item3, setItem3] = useState(false);
   const [item4, setItem4] = useState(false);
@@ -41,6 +32,12 @@ function Project() {
 
   useEffect(() => {
     if (mobileWindow) {
+      setTimeout(() => {
+        setDefaultItem(true);
+        setTimeout(() => {
+          setDefaultItem2(true);
+        }, 250)
+      }, 250);
       if (offset > 80) {
         setItem2(true);
       }
@@ -54,18 +51,12 @@ function Project() {
         setItem5(true);
       }
     } else {
-      if (offset > 39) {
-        setItem2(true);
-        setTimeout(() => {
-          setItem3(true);
-        }, 250)
-      }
-      if (offset > 375) {
-        setItem4(true);
-        setTimeout(() => {
-          setItem5(true);
-        }, 250)
-      }
+      setDefaultItem(true);
+      setDefaultItem2(true);
+      setItem2(true);
+      setItem3(true);
+      setItem4(true);
+      setItem5(true);
     }
   }, [offset])
 
