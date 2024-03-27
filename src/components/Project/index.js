@@ -70,33 +70,21 @@ function Project() {
             </div>
           </div>
           <div className="col s12 l6 colFlex">
-            <div className="secondary blackjack" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }} style={{cursor:"pointer"}}> 
-              {defaultItem2 && <><SocialIcon url='https://github.com/gregoryjohncarter/betwixt-blackjack' className="iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>Betwixt Blackjack <span className="fontOneA" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>&rarr; React.js</span></p></>}
+            <div className="secondary wo" onClick={(event) => { handleClick('https://writeabout2-077bb347dd31.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
+              {item3 && <><SocialIcon url='https://github.com/gregoryjohncarter/2WriteAbout' className={item3 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item3 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://writeabout2-077bb347dd31.herokuapp.com/', event); }}>2WriteAbout<span className="fontOneA" onClick={(event) => { handleClick('https://writeabout2-077bb347dd31.herokuapp.com/', event); }}>&rarr; React.js, Java</span></p></>}
             </div>
           </div>
         </div>
         <div className="other-container">
           <div className="row">
             <div className="col s12 l6 colFlex">
+              <div className="secondary blackjack" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }} style={{cursor:"pointer"}}> 
+                {defaultItem2 && <><SocialIcon url='https://github.com/gregoryjohncarter/betwixt-blackjack' className="iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>Betwixt Blackjack <span className="fontOneA" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>&rarr; React.js</span></p></>}
+              </div>
+            </div>
+            <div className="col s12 l6 colFlex">
               <div className="secondary thought" onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
-                {item2 && <><SocialIcon url='https://github.com/gregoryjohncarter/news-to-attend-to' className={item2 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item2 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }}>News to Attend to<span className="fontOneA" onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }}>&rarr; React.js, Express.js</span></p></>}
-              </div>
-            </div>
-            <div className="col s12 l6 colFlex">
-              <div className="secondary wo" onClick={(event) => { handleClick('https://workout-assistant-mern.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
-                {item3 && <><SocialIcon url='https://github.com/gregoryjohncarter/Workout-Assistant' className={item3 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item3 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://workout-assistant-mern.herokuapp.com/', event); }}>Workout Assistant<span className="fontOneA" onClick={(event) => { handleClick('https://workout-assistant-mern.herokuapp.com/', event); }}>&rarr; MERN Stack, Apollo</span></p></>}
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div  className="col s12 l6 colFlex">
-              <div className="secondary citizenship" onClick={(event) => { handleClick('https://thought-bubble-boards.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
-                {item4 && <><SocialIcon url='https://github.com/gregoryjohncarter/thought-bubble-boards' className={item4 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item4 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://thought-bubble-boards.herokuapp.com/', event); }}>Thought Bubble Boards <span className="fontOneA" onClick={(event) => { handleClick('https://thought-bubble-boards.herokuapp.com/', event); }}>&rarr; Express.js, MySQL</span></p></>}
-              </div>
-            </div>
-            <div className="col s12 l6 colFlex">
-              <div className="secondary codeq" onClick={(event) => { handleClick('https://literatureleadsledger.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
-                {item5 && <><SocialIcon url='https://github.com/gregoryjohncarter/literature-leads-ledger' className={item5 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item5 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://literatureleadsledger.herokuapp.com/', event); }}>Literature Leads Ledger<span className="fontOneA" onClick={(event) => { handleClick('https://literatureleadsledger.herokuapp.com/', event); }}>&rarr; MERN Stack, Apollo</span></p></>}
+                {item2 && <><SocialIcon url='https://github.com/gregoryjohncarter/news-to-attend-to' className={item2 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item2 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }}>News to Attend to<span className="fontOneA" onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }}>&rarr; React.js, Node.js</span></p></>}
               </div>
             </div>
           </div>
