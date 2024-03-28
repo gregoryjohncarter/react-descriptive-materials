@@ -71,7 +71,7 @@ function Project() {
           </div>
           <div className="col s12 l6 colFlex">
             <div className="secondary wo" onClick={(event) => { handleClick('https://writeabout2-077bb347dd31.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
-              {item3 && <><SocialIcon url='https://github.com/gregoryjohncarter/2WriteAbout' className={item3 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item3 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://writeabout2-077bb347dd31.herokuapp.com/', event); }}>2WriteAbout<span className="fontOneA" onClick={(event) => { handleClick('https://writeabout2-077bb347dd31.herokuapp.com/', event); }}>&rarr; React.js, Java</span></p></>}
+              {defaultItem2 && <><SocialIcon url='https://github.com/gregoryjohncarter/2WriteAbout' className={item3 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item3 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://writeabout2-077bb347dd31.herokuapp.com/', event); }}>2WriteAbout<span className="fontOneA" onClick={(event) => { handleClick('https://writeabout2-077bb347dd31.herokuapp.com/', event); }}>&rarr; React.js, Java</span></p></>}
             </div>
           </div>
         </div>
@@ -79,12 +79,12 @@ function Project() {
           <div className="row">
             <div className="col s12 l6 colFlex">
               <div className="secondary blackjack" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }} style={{cursor:"pointer"}}> 
-                {defaultItem2 && <><SocialIcon url='https://github.com/gregoryjohncarter/betwixt-blackjack' className="iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>Betwixt Blackjack <span className="fontOneA" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>&rarr; React.js</span></p></>}
+                {item2 && <><SocialIcon url='https://github.com/gregoryjohncarter/betwixt-blackjack' className="iconHover animate__animated animate__fadeIn" bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className="fontTwoA animate__animated animate__flipInX" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>Betwixt Blackjack <span className="fontOneA" onClick={(event) => { handleClick('https://gregoryjohncarter.github.io/betwixt-blackjack/', event); }}>&rarr; React.js</span></p></>}
               </div>
             </div>
             <div className="col s12 l6 colFlex">
               <div className="secondary thought" onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }} style={{cursor:"pointer"}}>
-                {item2 && <><SocialIcon url='https://github.com/gregoryjohncarter/news-to-attend-to' className={item2 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item2 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }}>News to Attend to<span className="fontOneA" onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }}>&rarr; React.js, Node.js</span></p></>}
+                {item3 && <><SocialIcon url='https://github.com/gregoryjohncarter/news-to-attend-to' className={item2 ? "iconHover animate__animated animate__fadeIn" : "iconHover"} bgColor="#2d2d2d" fgColor="#e8e8e8" style={{ height: 45, width: 45}} target="_blank"/><p className={item2 ? "fontTwoA animate__animated animate__flipInX" : "fontTwoA"} onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }}>News to Attend to<span className="fontOneA" onClick={(event) => { handleClick('https://news-to-attend-to.herokuapp.com/', event); }}>&rarr; React.js, Node.js</span></p></>}
               </div>
             </div>
           </div>
