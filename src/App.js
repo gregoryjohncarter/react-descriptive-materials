@@ -5,23 +5,35 @@ import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
-import Resume from './components/Resume';
+import Skills from './components/Skills';
 
 function App() {
   const [showAbout, setShowAbout] = useState(true);
   const [showPortfolio, setShowPortfolio] = useState(false);
   const [showContact, setShowContact] = useState(false);
-  const [showResume, setShowResume] = useState(false);
+  const [showSkills, setShowSkills] = useState(false);
 
   const [categories] = useState([
     {
       section: 'About Me',
-      description: 'Web developer with a thoughtful and positive perspective. Possesses a strong foundation in JavaScript and React. Gained experience during completion of a full stack boot camp. Proficiencies include HTML5, CSS3, Node.js, Java, Python, Spring Boot, and RESTful API.',
+      description: 'Full Stack Web Developer with well-rounded technical skills and teamwork experience. Completed a boot camp program from UConn in web development as well as additional self-guided learning and projects. Work experience includes employment as a stagehand and audio tech in NYC and currently in Atlantic City, NJ.',
       icon: 'account_circle' 
     },
-    { section: 'Portfolio', description: 'Please consider browsing through some of my projects. Also see additional GitHub links for more info.', icon:'dashboard' },
-    { section: 'Contact', description: 'Use this form to contact me with any questions or inquiries.', icon:'message' },
-    { section: 'Resume', description: 'This resume reflects upon my acquired skills and qualifications.', icon:'note' },
+    { 
+      section: 'Portfolio', 
+      description: 'Here are links to completed projects of mine hosted on Heroku, with additional GitHub repository links.', 
+      icon:'dashboard' 
+    },
+    { 
+      section: 'Skills', 
+      description: 'These are some of my technical skills ', 
+      icon:'note' 
+    },
+    { 
+      section: 'Contact', 
+      description: 'Here is my contact information with LinkedIn and GitHub profile links.', 
+      icon:'message' 
+    },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -29,7 +41,7 @@ function App() {
   const about = (showAbout && <About currentCategory={currentCategory}></About>);
   const portfolio = (showPortfolio && <Portfolio currentCategory={currentCategory}></Portfolio>);
   const contact = (showContact && <ContactForm currentCategory={currentCategory}></ContactForm>);
-  const resume = (showResume && <Resume currentCategory={currentCategory}></Resume>);
+  const skills = (showSkills && <Skills currentCategory={currentCategory}></Skills>);
 
   return (
     <div>
@@ -45,8 +57,8 @@ function App() {
             showPortfolio={showPortfolio}
             setShowContact={setShowContact}
             showContact={showContact}
-            setShowResume={setShowResume}
-            showResume={showResume}
+            setShowSkills={setShowSkills}
+            showSkills={showSkills}
           ></Header>
         </div>
       </div>
@@ -57,7 +69,7 @@ function App() {
               {about}
               {portfolio}
               {contact}
-              {resume}
+              {skills}
             </div>
           </main>
         </div>

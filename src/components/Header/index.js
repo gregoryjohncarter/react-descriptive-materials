@@ -9,11 +9,11 @@ function Header(props) {
     showAbout,
     showPortfolio,
     showContact,
-    showResume,
+    showSkills,
     setShowAbout,
     setShowPortfolio,
     setShowContact,
-    setShowResume,
+    setShowSkills,
   } = props;
   
   return (
@@ -28,8 +28,8 @@ function Header(props) {
         showPortfolio={showPortfolio}
         setShowContact={setShowContact}
         showContact={showContact}
-        setShowResume={setShowResume}
-        showResume={showResume}
+        setShowSkills={setShowSkills}
+        showSkills={showSkills}
       ></Nav>
     </div>
   );

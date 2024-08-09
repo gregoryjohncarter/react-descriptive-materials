@@ -14,7 +14,7 @@ function About({ currentCategory }) {
         <p className="gt">
           &gt;
         </p>
-        <img className="imgGreg" src={require("../../assets/images/linkedinselfie.jpg")} alt="greg-pic" height="230px" width="230px"/>
+        <img className="imgGreg" src={require("../../assets/images/GcarterPhoto.jpg")} alt="greg-pic" height="230px" width="230px"/>
       </div>
     </div>
   );

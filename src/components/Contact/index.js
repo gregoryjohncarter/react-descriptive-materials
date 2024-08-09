@@ -20,11 +20,11 @@ function ContactForm({ currentCategory }) {
         </section>
         <form id="contact-form">
           <div className="width">
-            <label htmlFor="name" className="contact">Mobile phone:</label>
-            <p className="input-field gray">(203) 841 7713</p>
+            <label htmlFor="name" className="contact">Phone:</label>
+            <p className="input-field gray">(203) 841-7713</p>
           </div>
           <div className="width">
-            <label htmlFor="email" className="contact">Email address:</label>
+            <label htmlFor="email" className="contact">Email:</label>
             <p className="input-field gray">gregoryjohncarter@gmail.com</p>
           </div>
           <footer className="marginBot">
